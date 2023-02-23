@@ -1,0 +1,12 @@
+footer {
+  background-color: rgb(2, 2, 41);
+  color: aliceblue;
+  display: flex;
+}
+.footer_title {
+  text-align: end;
+  margin-bottom: 4rem;
+}
+.footer_copyright {
+  text-align: center;
+}
