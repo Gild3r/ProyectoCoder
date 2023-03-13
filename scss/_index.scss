@@ -1,0 +1,74 @@
+.nav_color {
+  background-color: rgb(2, 2, 41);
+}
+
+body {
+  background-color: white;
+}
+h1 {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-style: normal;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 100%;
+  @media screen and (max-width: 550px) {
+    font-size: 25px;
+  }
+}
+.main_envios {
+  text-align: center;
+  border: 8px solid rgb(231, 171, 4);
+  background-color: rgb(231, 171, 4);
+  margin: 0;
+  padding: 0;
+}
+.section_button {
+  position: absolute;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  @media screen and (max-width: 550px) {
+    display: none;
+  }
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+}
+.article_item {
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: rgb(2, 2, 41);
+  color: aliceblue;
+}
+.footer_title {
+  text-align: center;
+  font-size: 28px;
+  @media screen and (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+.footer_icons {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  @media screen and (max-width: 550px) {
+    font-size: 25px;
+  }
+}
+
+.footer_copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  @media screen and (max-width: 550px) {
+    font-size: 10px;
+  }
+}

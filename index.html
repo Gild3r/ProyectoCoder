@@ -11,11 +11,18 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+      <nav class="navbar navbar-expand-lg py-3 bg-body-tertiary">
         <div class="container">
           <img src="imgs/BCN.png" class="img-fluid px-2" alt="..." />
           <a class="navbar-brand" href="#">FC Barcelona</a>
@@ -54,15 +61,15 @@
                 <a class="nav-link" href="Pages/Ayuda.html">Ayuda</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex" role="Buscar">
               <input
                 class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
+                type="Buscar"
+                placeholder="Buscar"
+                aria-label="Buscar"
               />
               <button class="btn btn-outline-success" type="submit">
-                Search
+                Buscar
               </button>
             </form>
           </div>
@@ -74,32 +81,47 @@
     </div>
     <div class="container">
       <main>
+        <button type="button" class="btn btn-light section_button">
+          Comprar
+        </button>
         <section>
           <h1>EQUIPACIONES</h1>
           <img src="imgs/equipaciones1.jpg" class="img-fluid mb-5" alt="..." />
         </section>
+        <button type="button" class="btn btn-light section_button">
+          Comprar
+        </button>
         <section>
           <h1>ENTRENAMIENTO</h1>
           <img src="imgs/entrenamiento1.jpg" class="img-fluid mb-5" alt="..." />
         </section>
+        <button type="button" class="btn btn-light section_button">
+          Comprar
+        </button>
         <section>
           <h1>MODA</h1>
           <img src="imgs/moda1.jpg" class="img-fluid mb-5" alt="..." />
         </section>
       </main>
     </div>
-    <footer>
-      <div class="container mt-5">
-        <span><p class="footer_title">Siguenos en las redes</p></span>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <p class="footer_copyright">
-          <span>
-            © Copyright FC Barcelona Página Oficial del FC Barcelona | Created
-            by Andres Salcedo
-          </span>
-        </p>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_title"><strong>Siguenos en las redes</strong></div>
+        <div class="footer_icons">
+          <a href=""
+            ><i class="fa-brands fa-instagram" style="color: white"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-facebook" style="color: white"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-twitter" style="color: white"></i
+          ></a>
+        </div>
+        <div class="footer_copyright">
+          © Copyright FC Barcelona Página Oficial del FC Barcelona | Created by
+          Andres Salcedo
+        </div>
       </div>
     </footer>
     <script
