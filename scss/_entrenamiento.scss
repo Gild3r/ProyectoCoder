@@ -6,3 +6,8 @@
   padding: 0;
   margin-top: 0;
 }
+.card {
+  @media screen and (max-width: 500px) {
+    margin: auto;
+  }
+}
