@@ -7,7 +7,8 @@
   margin-top: 0;
 }
 .card {
-  @media screen and (max-width: 500px) {
+  max-width: 100%;
+  @media screen and (max-width: 1000px) {
     margin: auto;
   }
 }
